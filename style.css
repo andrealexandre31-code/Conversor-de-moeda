@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    outline: none;
+}
+body {
+      background-color:#0000ff;
+}
+.logo {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin: 10px 0;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+}
+main {  
+    width: 400px;
+    margin: 0 auto 40px;
+    display: block;
+    padding: 44px 24px 23px;
+    border: 10px solid black; /* A borda externa (carcaça) */
+    border-radius: 36px; /* Cantos arredondados do aparelho */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+    background-color: #f8f8f8;
+}
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+select, input {
+    display: block;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    background-color: #ffffff;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    cursor: pointer;
+    padding: 16px;;
+    font-size: 13px;    
+    font-weight: 650;
+     color: #777777;   
+}
+button {
+    background-color: #772fd3;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+button:hover {
+    opacity: 0.8;
+} 
+
+button:active {
+    opacity: 0.6;
+}
+section {
+    margin: 0 auto;
+    display: block;
+    padding: 12px;
+    border: 3px solid black; /* A borda externa (carcaça) */
+    border-radius: 30px; /* Cantos arredondados do aparelho */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.arrow {
+    padding: 15px;
+}
+.currency-box {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.currency {
+    color: #777777;
+    font-size: 14px;
+}
+.currency-value, .currency-value-to-convert, {
+    color: #555555;
+    font-size: 20px;
+    font-weight: 700;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Empurra o rodapé para baixo se o conteúdo for curto */
+}
+
+.footer-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-container p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #4CAF50; /* Cor verde para os links, pode ser ajustado */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9em;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

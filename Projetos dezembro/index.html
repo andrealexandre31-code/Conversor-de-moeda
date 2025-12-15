@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="../style.css" />
+
+</head>
+
+<body>
+
+    <img class="logo" src="./assets/logo.gif" alt="log-girf">
+
+    <main>
+
+        <h1>CONVERSOR DE MOEDAS</h1>
+
+        <label>
+            Converter <b>de</b>
+            <select>
+                <option>R$ Real Brasileiro</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para</b>
+            <select class="currency-select">
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="BTC">BTC Bitcoin</option>
+            </select>
+        </label>
+
+        <label>
+            <b>Valor</b>
+            <input class="input-currency" placeholder="R$ 10.000,00" />
+        </label>
+
+        <button class="convert-Button">Converter</button>
+
+        <section>
+            <div class="currency-box">
+                <img src="./assets/real.png" alt="moeda-a-converter" />
+                <p class="currency">Real</p>
+                <p class="currency-value-to-convert">0,00</p>
+            </div>
+
+            <img class="arrow" src="./assets/seta.png" alt="down arrow">
+
+            <div class="currency-box">
+                <img class="currency-img" src="./assets/dolar.png" alt="moeda-convertida">
+                <p class="currency" id="currency-name">Dólar Americano</p>
+                <p class="currency-value-converted">0,00</p>
+            </div>
+        
+        </section>
+
+    </main>
+
+     <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Conversor de Moedas XYZ. Todos os direitos reservados.</p>
+            <p>Os dados de câmbio são fornecidos por uma API externa e podem sofrer alterações.</p>
+            <div class="footer-links">
+                <a href="#privacidade">Política de Privacidade</a>
+                <a href="#termos">Termos de Serviço</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="../scripts.js"></script>
+
+</html>
