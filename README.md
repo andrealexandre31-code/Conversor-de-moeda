@@ -11,3 +11,14 @@
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+<h1>✨ Funcionalidades</h1>
+
+<li>🔄 Conversão bidirecional entre BRL, USD, EUR e BTC</li>
+<li>🎨 Interface visual com bandeiras das moedas</li>
+<li>⚡ Conversão automática ao digitar ou trocar moedas</li>
+<li>📱 Design responsivo</li>
+
+
+
+
+
