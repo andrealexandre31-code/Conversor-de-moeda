@@ -1,5 +1,5 @@
-# Conversor de moeda
-<br>
+<img width="46" height="46" alt="image" src="https://github.com/user-attachments/assets/6f277a55-2348-4471-ad43-3aae949a604b" />
+<h1>Conversor de Moeda</h1>
 <br>
 <h1>Projeto desenvolvido dentro<a href="https://rodolfomori.com.br"/> devclub</a></h1>
 <br>
@@ -17,6 +17,9 @@
 <li>🎨 Interface visual com bandeiras das moedas</li>
 <li>⚡ Conversão automática ao digitar ou trocar moedas</li>
 <li>📱 Design responsivo</li>
+<br>
+<img src="https://github.com/andrealexandre31-code/Conversor-de-moeda/blob/main/foto%20conversor.png?raw=true" width="250px" heiht="100px"/>
+
 
 
 
