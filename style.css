@@ -138,9 +138,43 @@ footer {
 .footer-links a:hover {
     text-decoration: underline;
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) and (orientation: landscape) {
     main {
         width: 90%;
         padding: 20px;
     }
+    section {
+        width: 90%;
+        padding: 20px;
+    }
+    footer {
+        padding: 10px 0;
+    }
+    .footer-container {
+        max-width: 90%;
+        padding: 0 10px;
+    }
+    .footer-container p {
+        font-size: 0.8em;
+    }
+    .footer-links a {
+        font-size: 0.8em;
+    }
+    .logo {
+        width: 200px;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    label {
+        font-size: 0.9em;
+    }
+    select, input {
+        font-size: 0.9em;
+    }
+    button {
+        font-size: 0.9em;
+    }
+
 }
